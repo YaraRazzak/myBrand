@@ -1,0 +1,878 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mYBrand</title>
+            
+    <link rel="stylesheet"    href="css/font-awesome.min.css"/>
+    <link rel="stylesheet"    href="css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet"   href="css/style.css"/>
+
+   </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(255, 255, 255, 0.7);">
+            <a class="navbar-brand" href="#">mYBrand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="giftsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gifts <i class="fas fa-gift"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Discount</a>
+                    <a class="dropdown-item" href="#">Special Customers</a>
+                  </div>
+                </li>
+                
+              </ul>
+              <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+ 
+                    <div class="custom-control custom-switch m-2">
+                          <input type="checkbox" class="custom-control-input" id="themeSwitch">
+                        <label class="custom-control-label" for="themeSwitch">Dark</label>
+                      </div>
+
+              </form>
+
+              <ul class="navbar-nav ml-auto">
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#"  class="btn btn-primary " data-toggle="modal" data-target="#loginform"><i class="fas fa-user" ></i> Login</a>
+
+
+ 
+
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-map-marker-alt"></i> Location</a>
+                </li>
+             
+              </ul>
+            </div>
+          </nav>
+
+          
+                  <!-- The Modal -->
+ <div class="modal fade" id="loginform">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Add yoer information</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>
+                <div class="form-group form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                  </label>
+                </div>
+                        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary btn-visit">Submit</button>
+
+        </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+                 
+          <section class="sliderSec">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#slider" data-slide-to="0" class="active"></li>
+                  <li data-target="#slider" data-slide-to="1"></li>
+                  <li data-target="#slider" data-slide-to="2"></li>
+                  <li data-target="#slider" data-slide-to="3"></li>
+                  <li data-target="#slider" data-slide-to="4"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/elegant-girls-celebrate-studio.jpg" alt="soiree">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Soiree Outfits</h5>
+                          <p class="card-text">Let's celebrate with great brands</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg.jpg" alt="Accessories">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">furniture</h5>
+                          <p class="card-text">Add some awsome details </p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="/images/men.jpg" alt="men">
+                    <div class="carousel-caption">
+                      <div class="card ">
+                        <div class="card-body">
+                          <h5 class="card-title">Men outfits</h5>
+                          <p class="card-text">let's go handsome</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/full-length-portrait-cute-little-kid-girl-stylish-jeans-clothes-smiling-standing-white-kids-fashion-concept.jpg" alt="kids">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Kids Outfits</h5>
+                          <p class="card-text">love elegant little stars</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/model-career-kit-still-life.jpg" alt="Accessories">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Accessories</h5>
+                          <p class="card-text">Add some awsome details </p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/sportwear.jpg" alt="sportwear ">
+                    <div class="carousel-caption">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Sport Wear</h5>
+                          <p class="card-text">More Energy</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+
+                        </div>
+                    </div>
+                    </div>
+                
+
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+
+
+          </section>
+
+
+          <section class="section-margin calc-60px">
+            <div class="container">
+            <div class="section-intro pb-60px">
+                <h2>Trending Products</h2>
+                <div class="line"></div>            </div>
+            <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/blue bag.avif" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Accessories</p>
+            <h4 class="card-product__title"><a href="#">Blue bag</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/sportlady.webp"">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Women</p>
+            <h4 class="card-product__title"><a href="#">Sport Wear</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/blue dress.avif" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Women</p>
+            <h4 class="card-product__title"><a href="#">Blue dress</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/blue sh.jpg" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Decor</p>
+            <h4 class="card-product__title"><a href="#">White shoes</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/heel.jpg" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Accessories</p>
+            <h4 class="card-product__title"><a href="#">Blue heels</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/bath.jpg" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Home</p>
+            <h4 class="card-product__title"><a href="#">Bathroom</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/Light-Blue-Skinny-Silk-Tie-with-Dark-Navy-Pin-Dots.jpg" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Accessories</p>
+            <h4 class="card-product__title"><a href="#">Tie</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+            <div class="card-product__img">
+            <img class="card-img" src="images/kidsb.webp" alt="">
+            <ul class="card-product__imgOverlay">
+            <li><button><i class="fas fa-search"></i></button></li>
+            <li><button><i class="fas fa-shopping-cart"></i></button></li>
+            <li><button><i class="fas fa-heart"></i></button></li>
+            </ul>
+            </div>
+            <div class="card-body">
+            <p>Kids </p>
+            <h4 class="card-product__title"><a href="#">outfit</a></h4>
+            <p class="card-product__price">$150.00</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+          <section class="collaboration">
+            <h2>Our Collaborations</h2>
+<div class="line"></div>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="card m-3  " style="width: 250px">
+                <div class="card-body text-info d-flex flex-column text-center">
+                  <h3 class="card-title mb-4">Press to show our brands
+                  </h3>
+                  <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/Untitled.png" type="image" alt="icon">
+                  <a   title="our collaboration" data-toggle="popover" data-placement="top" data-content=" Armani, Nars, Fenty, Urban Decay, L'Oreal Paris, NYX, Iman, and Bobbi Brown" class="card-link h4 text-dark  ">Make Up</a>
+                </div>
+              </div>
+              <div class="card m-3  " style="width: 250px; ">
+                <div class="card-body text-info d-flex flex-column text-center" >
+                  <h3 class="card-title mb-4">Press to show our brands
+                  </h3>
+                  <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="/images/10accessories.jpeg" type="image" alt="icon ">
+                  <a title="our collaboration" data-toggle="popover" data-placement="top" data-content=" Marshall Columbia · Simuero · Seb Brown · Puer Parasitus" class="card-link h4 text-dark  ">Accessories</a>
+                </div>
+              </div>
+              <div class="card m-3  " style="width: 250px; ">
+                <div class="card-body text-info d-flex flex-column text-center">
+                  <h3 class="card-title mb-4">Press to show our brands
+                  </h3>
+                  <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/1c0ae5e8ea91fed30165fdceca3b5abb.jpg" type="image" alt="icon">
+                  <a title="our collaboration" data-toggle="popover" data-placement="top" data-content="  Castlery · Arhaus · Design Within Reach · Eternity Modern · Lulu & Georgia" class="card-link h4 text-dark  ">Home</a>
+                </div>
+              </div>
+              <div class="card m-3  " style="width: 250px;">
+                <div class="card-body text-info d-flex flex-column text-center">
+                  <h3 class="card-title mb-4">Press to show our brands
+                  </h3>
+                  <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/best-clothing-brands-in-pakistan.jpg" type="image" alt="icon">
+                  <a title="our collaboration" data-toggle="popover" data-placement="top" data-content="  Adam Lippes · Agnona ; Dolce&Gabbana · Drake's · Dries Van Noten ; Lela Rose · Lisa Marie Fernandez · Loewe ; Roger Vivier" class="card-link h4 text-dark  ">Clothes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<div class="fixed-img fixed-image"></div>
+
+          <section class="sections">
+            <h2>Search By Sections</h2>
+<div class="line"></div>
+
+            <div id="accordion">
+                <!-- Ladies Section -->
+                <div class="card mb-200">
+                  <div class="card-header" id="headingLadies">
+                    <h5 class="mb-0">
+                      <button class="btn btn-visit" data-toggle="collapse" href="#collapseLadies" >
+                        Ladies...
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseLadies" class="collapse" data-parent="#accordion">
+                    <div class="card-body accordion-section d-flex flex-wrap justify-content-around">
+                      <!-- Ladies Cards -->
+                      <div class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow" >
+                        <img src="/images/day-lady.jpg" class="card-img-top" alt="Ladies Day">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Day</h5>
+                          <p class="card-text">Details about ladies day.</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                        </div>
+                      </div>
+                      <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                        <img src="/images/party lady.jpg" class="card-img-top" alt="Ladies party">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Party</h5>
+                          <p class="card-text">Details about ladies party.</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                        </div>
+                      </div>
+                      <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                        <img src="/images/sportlady.webp" class="card-img-top" alt="Ladies sport">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Sport</h5>
+                          <p class="card-text">Details about ladies Sport.</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                        </div>
+                      </div>
+                      <div  class="card h cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                        <img src="/images/Accessories-for-Women.jpg" class="card-img-top" alt="Ladies accessoire">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Accessories</h5>
+                          <p class="card-text">Details about ladies Accessories.</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                        </div>
+                      </div>
+                      <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                        <img src="/images/pajamaslady.jpg" class="card-img-top" alt="Ladies pajamas">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Pajamas</h5>
+                          <p class="card-text">Details about ladies Pajamas.</p>
+                          <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                    <div class="card-header" id="headingLadies">
+                      <h5 class="mb-0">
+                        <button class="btn btn-visit" data-toggle="collapse" href="#collapseMen" >
+                         Men...
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseMen" class="collapse " data-parent="#accordion">
+                      <div class="card-body accordion-section d-flex flex-wrap div justify-content-around">
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/day men.jpg" class="card-img-top" alt="men Day">
+                          <div class="card-body">
+                            <h5 class="card-title">Men Day</h5>
+                            <p class="card-text">Details about men day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/men party.webp" class="card-img-top" alt="men prty">
+                          <div class="card-body">
+                            <h5 class="card-title">Men party</h5>
+                            <p class="card-text">Details about men party.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/men access.webp" class="card-img-top" alt="meny">
+                          <div class="card-body">
+                            <h5 class="card-title">Men Accessories</h5>
+                            <p class="card-text">Details about Men Accessories</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/men sport.jpg" class="card-img-top" alt="men sport">
+                          <div class="card-body">
+                            <h5 class="card-title">Men sports</h5>
+                            <p class="card-text">Details about Men sport.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/pajamasmen.jpg" class="card-img-top" alt="men pajamas">
+                          <div class="card-body">
+                            <h5 class="card-title">Men Pajamas</h5>
+                            <p class="card-text">Details about Men Pajamas</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                <!-- ... -->
+                <div class="card">
+                    <div class="card-header" id="headingLadies">
+                      <h5 class="mb-0">
+                        <button class="btn btn-visit" data-toggle="collapse" data-target="#collapseKids" >
+                         Kids...
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseKids" class="collapse " data-parent="#accordion">
+                      <div class="card-body accordion-section d-flex flex-wrap justify-content-around">
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/kidsb.webp" class="card-img-top" alt="kids boy">
+                          <div class="card-body">
+                            <h5 class="card-title">Boys</h5>
+                            <p class="card-text">Details about boys outfits.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/kidsg.jpg" class="card-img-top" alt="girl">
+                          <div class="card-body">
+                            <h5 class="card-title">Girls</h5>
+                            <p class="card-text">Details about girls outfit.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/kids pa.jpg" class="card-img-top" alt="kids pajamas">
+                          <div class="card-body">
+                            <h5 class="card-title">Kids Pajamas</h5>
+                            <p class="card-text">Details about Kids Pajamas</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/kids acc.webp" class="card-img-top" alt="kids">
+                          <div class="card-body">
+                            <h5 class="card-title">kids accessiories</h5>
+                            <p class="card-text">Details about ladies day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="/images/baby.webp" class="card-img-top" alt="baby">
+                          <div class="card-body">
+                            <h5 class="card-title">baby</h5>
+                            <p class="card-text">Details about baby.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                <!-- ... -->
+                <div class="card">
+                    <div class="card-header" id="headingLadies">
+                      <h5 class="mb-0">
+                        <button class="btn btn-visit" data-toggle="collapse" href="#collapseHome" >
+                         Home...
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseHome" class="collapse " data-parent="#accordion">
+                      <div class="card-body accordion-section d-flex flex-wrap justify-content-around mb-3">
+
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="images/kitchen.jpg" class="card-img-top" alt="Ladies Day">
+                          <div class="card-body">
+                            <h5 class="card-title">Ladies Day</h5>
+                            <p class="card-text">Details about ladies day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="images/living.jpg" class="card-img-top" alt="Ladies Day">
+                          <div class="card-body">
+                            <h5 class="card-title">Ladies Day</h5>
+                            <p class="card-text">Details about ladies day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="images/garden.webp" class="card-img-top" alt="Ladies Day">
+                          <div class="card-body">
+                            <h5 class="card-title">Ladies Day</h5>
+                            <p class="card-text">Details about ladies day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                        <div  class="card cardover  text-red col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"  >
+                          <img src="images/bedroom.jpg" class="card-img-top" alt="Ladies Day">
+                          <div class="card-body">
+                            <h5 class="card-title">Ladies Day</h5>
+                            <p class="card-text">Details about ladies day.</p>
+                            <a href="#" class="btn btn-primary btn-visit">Visit <i class="fas fa-eye"></i></a>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                <!-- ... -->
+              
+              </div>
+              
+
+          </section>
+
+
+          <div class="container">
+            <h2>Latest News</h2>
+            <div class="line"></div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="article">
+                  <img src="images/bedroom.jpg" alt="Article 1 Image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Article 1 Title</h5>
+                    <div class="line1"></div>
+
+                    <p>12/2/2022</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                     
+                    </p>
+                  </div>
+                  <div class="footer-icons">
+                    <i class="far fa-eye"></i> 100
+                    <i class="far fa-thumbs-up"></i> 50
+                    <i class="far fa-comment"></i> 20
+                  </div>
+                  <div class="continue-reading">
+                    <i class="fas fa-arrow-alt-circle-right"></i> Continue Reading
+                  </div>
+                </div>
+                
+              </div>
+          
+          
+              <div class="col-md-4">
+                <div class="article">
+                  <img src="images/sportlady.webp" alt="Article 2 Image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Article 2 Title</h5>
+                    <div class="line1"></div>
+
+                    <p>15/1/2023</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                       
+                    </p>
+                  </div>
+                  <div class="footer-icons">
+                    <i class="far fa-eye"></i> 120
+                    <i class="far fa-thumbs-up"></i> 70
+                    <i class="far fa-comment"></i> 30
+                  </div>
+                  <div class="continue-reading">
+                    <i class="fas fa-arrow-alt-circle-right"></i> Continue Reading
+                  </div>
+                </div>
+                
+              </div>
+          
+              <div class="col-md-4">
+                <div class="article">
+                  <img src="images/baby.webp" alt="Article 3 Image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Article 3 Title</h5>
+                    <div class="line1"></div>
+
+
+                    <p>23/3/2023</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                     
+                    </p>
+                  </div>
+                  <div class="footer-icons">
+                    <i class="far fa-eye"></i> 80
+                    <i class="far fa-thumbs-up"></i> 40
+                    <i class="far fa-comment"></i> 15
+                  </div>
+                  <div class="continue-reading">
+                    <i class="fas fa-arrow-alt-circle-right"></i> Continue Reading
+                  </div> 
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          
+          
+
+          <div class="fixed-img fixed-image"></div>
+     
+          <div class="vertical-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/yourpage" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://plus.google.com/yourpage" target="_blank" class="icon"><i class="fab fa-google-plus-g"></i></a>
+            <a href="https://wa.me/whatsappphonenumber" target="_blank" class="icon"><i class="fab fa-whatsapp"></i></a>
+          </div>
+         
+            
+
+
+
+          <footer class="footer">
+            <div class="footer-area">
+            <div class="container">
+                <div class="changeColor">
+                    <label for="customRange">website color</label>
+                     <input type="range" class="custom-range" id="customRange" name="points1">              
+                 </div>
+                 <br>
+            <div class="row section_gap">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+            <h4 class="footer_title large_title">Our Mission</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi error at vitae dolorem in temporibus quod ducimus delectus maiores. Labore vitae modi totam minus quo laboriosam molestias quae debitis suscipit?
+            </p>
+         
+            </div>
+            </div>
+            <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+            <h4 class="footer_title">Quick Links</h4>
+            <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+            <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+            <div class="single-footer-widget tp_widgets">
+            <h4 class="footer_title">Contact Us</h4>
+            <div class="ml-40">
+            <p class="sm-head">
+            <span class="fa fa-location-arrow"></span>
+            Head Office
+            </p>
+            <p>123,  Street,  City</p>
+            <p class="sm-head">
+            <span class="fa fa-phone"></span>
+            Phone Number
+            </p>
+            <p>
+            +123 456 7890 <br>
+            +123 456 7890
+            </p>
+            <p class="sm-head">
+            <span class="fa fa-envelope"></span>
+            Email
+            </p>
+            <p>
+            yara@jjjjj.com <br>
+            www.yara.com
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <div class="container">
+            <div class="row d-flex">
+            <p class="col-lg-12 footer-text text-center">
+              
+            
+            Copyright © 2023 All rights reserved <i class="fa fa-heart" aria-hidden="true"></i>
+            </p>
+            </div>
+            </div>
+            </div>
+            </footer>
+       
+        
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script>
+                                var blueElements = document.querySelectorAll('*');
+
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();   
+            });
+            
+                    document.getElementById('themeSwitch').addEventListener('change', function() {
+                      document.body.classList.toggle('black');
+                    });
+
+                   // اسم الملف الذي نريد البحث فيه
+    var cssFile = 'style.css';
+    var rangeInput = document.getElementById('customRange');
+    rangeInput.addEventListener('input', function() {
+  // تحميل محتوى ملف CSS
+  fetch(cssFile)
+    .then(response => response.text())
+    .then(cssText => {
+      // البحث عن العناصر التي تحتوي على اللون #384aeb
+      var styleSheet = new CSSStyleSheet();
+      var value = rangeInput.value;
+      styleSheet.replaceSync(cssText);
+      var matchingElements = document.querySelectorAll('*');
+      
+      matchingElements.forEach(function(element) {
+        var computedStyle = getComputedStyle(element);
+        if (value>0) {
+          element.style.color = 'purple';
+          if (computedStyle.backgroundColor === 'rgb(56, 74, 235)' || computedStyle.backgroundColor === 'rgba(0, 255, 0, 0.5)'||computedStyle.backgroundColor === 'rgba(255, 0, 0, 0.5)') {
+              element.style.background = 'rgba(255, 0, 255, 0.5)';
+             
+            }        }
+        if (value>30) {
+          element.style.color = 'red';
+          if (computedStyle.backgroundColor === 'rgb(56, 74, 235)' || computedStyle.backgroundColor === 'rgba(0, 255, 0, 0.5)'||computedStyle.backgroundColor === 'rgba(255, 0, 255, 0.5)') {
+              element.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
+            }        }
+        if (value>70) {
+          element.style.color = 'green';
+          if (computedStyle.backgroundColor === 'rgb(56, 74, 235)' || computedStyle.backgroundColor === 'rgba(255, 0, 0, 0.5)'||computedStyle.backgroundColor === 'rgba(255, 0, 255, 0.5)') {
+              element.style.backgroundColor = 'rgba(0, 255, 0, 0.5)';
+            }  
+         }
+      
+      });
+    })
+
+    .catch(error => console.log('حدث خطأ: ', error));
+});
+
+
+
+                  </script>
+    
+    </body>
+</html>
+
+
