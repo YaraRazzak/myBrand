@@ -327,3 +327,56 @@ opacity:.5;}
       }
       .changeColor{
 margin: auto;}
+
+
+.Discount .card {
+  width:95%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  background: url('../images/chrismass.jpg') center/cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.Discount .card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+.Discount .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(192, 182, 221, 0.7), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+.Discount .card .card-body {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+.Discount .card .rounded-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 3;
+  border: 5px solid white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.Discount .card.card-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.Discount .card .card-text {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
